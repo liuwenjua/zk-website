@@ -1,0 +1,318 @@
+.logoimg {
+    width: 1060px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-size: 66px;
+    color: #2e5b7d;
+}
+
+.item-pc {
+    width: 100%;
+}
+
+.item-warp {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.item1 {
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.item2 {
+    width: 100%;
+    background: #fff;
+}
+
+.item3 {
+    background: #f5f5f5;
+    padding-bottom: 92px;
+}
+
+.item-pc .title {
+    font-size: 40px;
+    padding: 90px 0 70px;
+    color: #193585;
+    text-align: center;
+    font-weight: normal;
+}
+
+.item-pc ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+}
+
+.item1 ul li {
+    width: 270px;
+    height: 466px;
+    margin: 0 3px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item1 ul {
+    padding-bottom: 83px;
+}
+
+.item1 ul li div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 89px;
+    line-height: 89px;
+    color: #fff;
+    font-size: 30px;
+    background: url(../images/yfsj_yj_h.png) center no-repeat;
+    background-size: cover;
+}
+
+.item1 ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.item1 ul li img:hover {
+    transform: scale(1.4);
+}
+
+.item2 .item-warp ul li {
+    width: 385px;
+    line-height: 25px;
+    margin: 0 52px;
+    overflow: hidden;
+}
+
+.item2 .sub-title {
+    font-size: 30px;
+    padding: 28px 0 23px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+
+.item3 .item-warp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item3 .item-warp .sub-title {
+    display: flex;
+    margin-bottom: 78px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item3 .item-warp .sub-title div {
+    width: 105px;
+    height: 2px;
+    background: #666666;
+    font-size: 20px;
+}
+
+.item3 .item-warp .sub-title p {
+    margin: 0 8px;
+}
+
+.item3 .title {
+    font-size: 40px;
+    padding: 88px 0 32px;
+    color: #193585;
+    text-align: center;
+    font-weight: normal;
+}
+
+.section3 {
+    width: 100%;
+    min-height: 600px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section3-warp {
+    width: 1100px;
+    padding-left: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section3-warp .title {
+    font-size: 40px;
+    margin-top: 190px;
+    font-weight: normal;
+}
+
+.section3-warp .content {
+    font-size: 15px;
+    width: 380px;
+    line-height: 26px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+
+/*移动端*/
+
+.banner-mobile {
+    width: 100%;
+    height: 5.2rem;
+    background: url(../images/mobile/yfsj_banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.hardware {
+    padding: 0.78rem 0 0.7rem;
+    font-size: 0.3rem;
+    text-align: center;
+    background: #fff;
+}
+
+.hardware h3 {
+    color: #193585;
+    font-size: 0.46rem;
+}
+
+.hardware .sub-title {
+    font-size: 0.22rem;
+    color: #666666;
+    margin: 0.15rem 0 0.55rem;
+}
+
+.list {
+    display: flex;
+    padding-left: 0.3rem;
+}
+
+.list li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.08rem;
+}
+
+.list li img {
+    width: 2.7rem;
+    height: 3.78rem;
+    margin-bottom: 0.08rem;
+}
+
+.list .last img {
+    width: 1.49rem;
+    height: 7.84rem;
+}
+
+.software {
+    padding: 0.78rem 0.3rem 0.78rem;
+    font-size: 0.3rem;
+    background: #f5f5f5;
+}
+
+.software h3 {
+    color: #193585;
+    font-size: 0.46rem;
+    text-align: center;
+}
+
+.software .sub-title {
+    font-size: 0.22rem;
+    color: #666666;
+    text-align: center;
+    margin: 0.15rem 0 0.55rem;
+}
+
+.software .item img {
+    width: 6.9rem;
+    height: 2.6rem;
+}
+
+.software .item {
+    margin-top: 0.6rem;
+}
+
+.software .item p:nth-child(2) {
+    display: table;
+    color: #193585;
+    font-size: 0.3rem;
+    padding-bottom: 0.05rem;
+    padding-right: 0.6rem;
+    border-bottom: 3px solid #193585;
+    margin: 0.37rem 0 0.25rem;
+}
+
+.software .item p:nth-child(3) {
+    line-height: 0.38rem;
+    font-size: 0.22rem;
+    color: #666666;
+}
+
+.ai {
+    width: 100%;
+    height: 6rem;
+    background: url(../images/mobile/yfsj_AI_bg.jpg) center no-repeat;
+    background-size: cover;
+    font-size: 0.22rem;
+    color: #fff;
+    padding: 1.2rem 0 0 0.3rem;
+    box-sizing: border-box;
+}
+
+.ai p:nth-child(1) {
+    font-size: 0.46rem;
+    margin-bottom: 0.4rem;
+}
+
+.ai p:nth-child(2) {
+    width: 4.3rem;
+    font-size: 0.22rem;
+    line-height: 0.38rem;
+}
+
+.result {
+    padding: 0.78rem 0.3rem 0.78rem;
+    font-size: 0.3rem;
+    background: #fff;
+}
+
+.result img {
+    width: 7rem;
+    height: 3.75rem;
+}
+
+.result h3 {
+    color: #193585;
+    font-size: 0.46rem;
+    text-align: center;
+}
+
+.result .sub-title {
+    display: flex;
+    font-size: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0.31rem 0 0.7rem;
+    color: #666666;
+}
+
+.result .sub-title span:nth-child(1) {
+    width: 1.05rem;
+    border-bottom: 1px solid #666666;
+}
+
+.result .sub-title span:nth-child(2) {
+    margin: 0 0.08rem;
+}
+
+.result .sub-title span:nth-child(3) {
+    width: 1.05rem;
+    border-bottom: 1px solid #666666;
+}

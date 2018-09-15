@@ -1,0 +1,856 @@
+.logoimg {
+    width: 1060px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-size: 66px;
+    color: #2e5b7d;
+}
+
+.header p {
+    width: 1060px;
+    margin: 0 auto;
+    padding-left: 40px;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 36px;
+}
+
+.section2-pc {
+    width: 100%;
+    padding: 153px 0 156px;
+}
+
+.section3-pc-industry {
+    width: 100%;
+}
+
+.section3-pc-warp {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 80px 0 100px;
+}
+
+.section2-pc-warp {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-pc-warp .content {
+    width: 518px;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 25px;
+}
+
+.section2-pc-warp .content span {
+    background: #193585;
+    color: #fff;
+    font-size: 36px;
+    padding: 6px 14px;
+}
+
+.section2-pc-warp .content .title {
+    font-size: 46px;
+    margin: 43px 0 25px;
+}
+
+.section2-pc-warp .content p {
+    line-height: 44px;
+}
+
+.section2-pc-warp .pic {
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.section2-pc-warp .content .name {
+    color: #193585;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.section3-pc-warp .title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section3-pc-warp .sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 143px;
+}
+
+.section3-pc-warp ul {
+    display: flex;
+}
+
+.section3-pc-warp ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 27px;
+    padding: 0 25px;
+}
+
+.section3-pc-warp ul li h3 {
+    margin: 22px 25px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: inherit;
+    font-weight: normal;
+}
+
+.section3-pc-warp ul li p {
+    color: #666666;
+}
+
+.section4-pc-industry {
+    background: #f1f3f5;
+}
+
+.section4-pc-title {
+    text-align: center;
+    padding: 80px 0 55px;
+}
+
+.section4-pc-subtitle {
+    text-align: center;
+    margin: 20px 0 77px;
+}
+
+.section4-pc-industry ul {
+    display: flex;
+    width: 1100px;
+    height: 402px;
+    margin: 0 auto;
+    padding-bottom: 93px;
+}
+
+.section4-pc-industry ul li {
+    flex-grow: 1;
+    position: relative;
+}
+
+.section4-pc-industry ul li .name {
+    width: 196px;
+    height: 196px;
+    background: rgba(255, 255, 255, 0.84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #193585;
+    font-weight: bold;
+    border: 15px solid rgba(255, 255, 255, 0.49);
+}
+
+.introduction {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 53, 133, 0.7);
+    font-size: 15px;
+    color: #fff;
+    padding: 0 40px 0 30px;
+    box-sizing: border-box;
+    line-height: 26px;
+    display: none;
+}
+
+.introduction-name {
+    font-size: 35px;
+    padding: 130px 0 5px;
+    text-align: center;
+    margin: 0 auto 23px;
+    font-weight: normal;
+}
+
+.introduction-name3 {
+    padding: 80px 0 5px;
+}
+
+.introduction-name span {
+    font-size: 20px;
+}
+
+.section4-pc-industry ul li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 440px;
+}
+
+.section4-pc-industry ul li .name span {
+    font-size: 20px;
+}
+
+.section4-pc-industry ul li:nth-child(1) {
+    margin-right: 26px;
+    background: url(../images/yacx_gshy_01.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-industry ul li:nth-child(1):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-industry ul li:nth-child(1):hover .introduction {
+    display: block;
+}
+
+.section4-pc-industry ul li:nth-child(2) {
+    margin-right: 26px;
+    background: url(../images/yacx_gshy_02.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-industry ul li:nth-child(2):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-industry ul li:nth-child(2):hover .introduction {
+    display: block;
+}
+
+.section4-pc-industry ul li:nth-child(3) {
+    margin-right: 14px;
+    background: url(../images/yacx_gshy_03.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-industry ul li:nth-child(3):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-industry ul li:nth-child(3):hover .introduction {
+    display: block;
+}
+
+.section5-pc-industry {
+    width: 100%;
+    height: 757px;
+    color: #fff;
+    background: url(../images/hyfa_03_bg.jpg) no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.section5-pc-industry .title {
+    text-align: center;
+    margin: 82px 0 33px;
+}
+
+.section5-pc-industry p {
+    width: 780px;
+    margin: 0 auto 88px;
+    line-height: 30px;
+}
+
+.section5-pc-industry .pic {
+    text-align: center;
+}
+
+.section5-pc-industry .pic img {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.section6-pc-industry {
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+.section6-pc-warp {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    font-size: 15px;
+}
+
+.section6-pc-warp .title {
+    text-align: center;
+    margin: 88px 0 64px;
+}
+
+.section6-pc-warp ul {
+    display: flex;
+}
+
+.section6-pc-warp ul h3 {
+    font-size: 30px;
+}
+
+.section6-pc-warp ul img {
+    width: 248px;
+}
+
+.des {
+    width: 300px;
+    background: #455b9b;
+    color: #fff;
+    padding: 15px 25px 0;
+    line-height: 26px;
+    box-sizing: border-box;
+}
+
+.case3 {
+    display: flex;
+}
+
+.case3 h3 {
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.case3 div {
+
+    padding: 0 30px 0 15px;
+    box-sizing: border-box;
+}
+
+.case3 p {
+    line-height: 26px;
+}
+
+.section7-pc {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+
+.section7-pc-warp ul {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.section7-pc-warp .title {
+    text-align: center;
+    margin: 80px 0 78px;
+}
+
+.section7-pc-warp ul li {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    background: rgba(20, 51, 114, 0.67);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 12px;
+}
+
+.section7-pc-warp ul li img {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 15px;
+}
+
+
+/*移动端*/
+
+.banner-mobile {
+    width: 100%;
+    height: 5.2rem;
+    background: url(../images/mobile/hyfa_banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.info-mobile {
+    padding: 0.67rem 0.3rem 0.67rem;
+    font-size: 0.24rem;
+    color: #666666;
+}
+
+.mobile-h3 {
+    font-size: 0.46rem;
+    color: #193585;
+    font-weight: bold;
+    text-align: -webkit-center;
+}
+
+.mobile-des {
+    font-size: 0.2rem;
+    text-align: center;
+    margin-bottom: 0.57rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.items .item {
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    margin-top: 0.3rem;
+    font-size: 0.2rem;
+}
+
+.items .item .left-img {
+    margin-right: 0.2rem;
+    align-self: center;
+}
+
+.items .item .left-img img {
+    height: 100%;
+}
+
+.info-mobile .item .left-img {
+    height: 1.74rem;
+    margin-right: 0.4rem;
+}
+
+.items .item .right-content {
+    align-self: center;
+}
+
+.items .item .right-content p {
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.items .item .right-content div {
+    font-size: 0.2rem;
+}
+
+.custom,
+.success-case {
+    padding: 0.67rem 0.3rem 0.67rem;
+}
+
+.custom .item .left-img {
+    height: 3.30rem;
+    margin-right: 0.2rem;
+}
+
+.plain {
+    padding: 0.9rem 0;
+    background: #3a63a7;
+}
+
+.plain-bg {
+    position: relative;
+    width: 100%;
+    height: 8.82rem;
+    background: url(../images/mobile/hyfa_03.jpg) no-repeat;
+    background-size: cover;
+}
+
+.plain-content {
+    position: absolute;
+    width: 3.2rem;
+    top: 0;
+    left: 0.5rem;
+    color: #fff;
+}
+
+.plain-content .mobile-h3 {
+    margin-bottom: 0.3rem;
+    font-size: 0.44rem;
+    color: #fff;
+}
+
+.plain-content.mobile-des {
+    font-size: 0.22rem;
+}
+
+.success-case .item .left-img {
+    height: 3.70rem;
+    margin-right: 0;
+}
+
+.success-case .right-content {
+    /*height: 3.7rem;*/
+    padding: 0.4rem 0.17rem;
+    box-sizing: border-box;
+    background: #3a63a7;
+    color: #fff;
+}
+
+.success-case .right-content:last-child {
+    padding: 0.25rem;
+}
+
+.success-case .right-content p {
+    margin-bottom: 0;
+}
+
+.success-case .item-max .max-img {
+    width: 100%;
+    height: 4.10rem;
+}
+
+.success-case .item-max .max-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.success-case .item-max .right-content {
+    background: none;
+}
+
+.success-case .item-max .right-content>p {
+    color: #050505;
+    font-weight: bold;
+    font-size: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+
+.success-case .item-max .right-content div {
+    color: #666;
+    font-size: 0.22rem;
+}
+
+.advantage {
+    /*padding: 0.67rem 0;*/
+    height: 6.73rem;
+    /*background: url(../images/mobile/hyfa_05_bg.jpg) no-repeat -1.5rem 0;*/
+    background: url(../images/mobile/hyfa_05_bg.jpg) no-repeat;
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantage .mobile-h3 {
+    color: #fff;
+}
+
+.advantage .items-icon {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items-icon .item {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: 0.35rem;
+    margin-right: 0.2rem;
+    background: rgba(53, 94, 172, 0.67);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.items-icon .item .icon {
+    height: 0.62rem;
+    width: 0.62rem;
+    /*background: url(../images/mobile/hyfa_05_01.png) no-repeat;
+ 	background-size: cover;*/
+    color: #FFF;
+    align-self: center;
+    margin-bottom: 0.1rem;
+}
+
+.items-icon .item p {
+    font-size: 0.24rem;
+}
+
+.items-icon .item .icon1 {
+    background: url(../images/mobile/hyfa_05_01.png) no-repeat;
+    background-size: cover;
+}
+
+.items-icon .item .icon2 {
+    background: url(../images/mobile/hyfa_05_02.png) no-repeat;
+    background-size: cover;
+}
+
+.items-icon .item .icon3 {
+    background: url(../images/mobile/hyfa_05_03.png) no-repeat;
+    background-size: cover;
+}
+
+.items-icon .item .icon4 {
+    background: url(../images/mobile/hyfa_05_04.png) no-repeat;
+    background-size: cover;
+}
+
+.items-icon .item .icon5 {
+    background: url(../images/mobile/hyfa_05_05.png) no-repeat;
+    background-size: cover;
+}
+
+.items-icon .item .icon6 {
+    background: url(../images/mobile/hyfa_05_06.png) no-repeat;
+    background-size: cover;
+}
+
+.mob-section2 {
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    color: #666666;
+    padding: 0 0.27rem 0.58rem 0.35rem;
+}
+
+.mob-section2 .title {
+    text-align: center;
+    padding: 0.7rem 0 0.55rem;
+}
+
+.mob-section2 .title h3 {
+    font-size: 0.5rem;
+    /*margin-bottom: 0.2rem;*/
+}
+
+.mob-section2 .title .sub-title {
+    font-size: 0.3rem;
+    color: #193585;
+}
+
+.mob-section2-cont {
+    height: 4.78rem;
+    position: relative;
+    /*background: url(../images/mobile/zylx_01_bg1.jpg) no-repeat;*/
+    background-size: 3.98rem 4.38rem;
+    display: flex;
+    align-items: center;
+}
+
+.mob-section2-cont img {
+    width: 3.98rem;
+    height: 4.38rem;
+    margin-top: 0.2rem;
+}
+
+.mob-section2-cont div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.23rem;
+    height: 4.66rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.18rem 0.3rem 0.27rem;
+    /*height: 100%;*/
+    background: rgba(53, 94, 172, 0.9);
+    float: right;
+    color: #fff;
+}
+
+.mob-section2 .sub-title2 {
+    font-size: 0.3rem;
+    color: #000;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.field {
+    width: 100%;
+    /*height: 5rem;*/
+    padding: 0.7rem 0 0 0.14rem;
+    box-sizing: border-box;
+    background: url(../images/mobile/nkzh_syly_bg1.jpg) no-repeat;
+    background-size: cover;
+    font-size: 0.2rem;
+    color: #fff;
+}
+
+.field2 {
+    background: url(../images/mobile/nkzh_syly_bg2.jpg) no-repeat;
+}
+
+.field .title {
+    font-size: 0.3rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 0.05rem solid #fff;
+    display: table;
+    margin-left: 0.26rem;
+    margin-bottom: 0.62rem;
+}
+
+.field ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /*margin-top: 0.62rem;*/
+}
+
+.field ul li {
+    width: 1.3rem;
+    /*height: 1.25rem;*/
+    /*margin-bottom: 0.25rem;
+	box-sizing: border-box;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.field2 ul li {
+    width: 1.6rem;
+}
+
+.field ul li img {
+    width: 0.76rem;
+    height: 0.68rem;
+}
+
+.field ul li p {
+    margin-top: 0.15rem;
+}
+
+.field ul .line {
+    width: 0.02rem;
+    height: 1.25rem;
+    background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -o-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -ms-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: linear-gradient(#586b9a, #9aa9cb, #586b9a);
+}
+
+.field2 ul .line {
+    width: 0.02rem;
+    height: 1.25rem;
+    background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -o-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -ms-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: linear-gradient(#877a7a, #fff, #877a7a);
+}
+
+.mob-section4 {
+    padding: 0.66rem 0 0.58rem;
+    background: #f5f5f5;
+    font-size: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mob-section4 img {
+    width: 7.5rem;
+}
+
+.mob-section4 p:nth-child(1) {
+    display: inline-table;
+    color: #fff;
+    font-size: 0.4rem;
+    background: #193585;
+    padding: 0.06rem 0.09rem;
+}
+
+.mob-section4 p:nth-child(2) {
+    font-size: 0.3rem;
+    margin: 0.3rem 0 0.22rem;
+}
+
+.mob-section4 p:nth-child(3) {
+    line-height: 0.32rem;
+    margin-bottom: 0.6rem;
+    padding: 0 0.4rem;
+    color: #666666;
+}
+
+.mob-section5 {
+    /*height: 9.45rem;*/
+    font-size: 0.2rem;
+    color: #666666;
+}
+
+.mob-section5 p:nth-child(1) {
+    font-size: 0.46rem;
+    color: #193585;
+    margin: 0.85rem auto 0.72rem;
+    text-align: center;
+}
+
+.mob-section5 p:nth-child(3) {
+    font-size: 0.3rem;
+    color: #000;
+    margin: 0.3rem auto 0.3rem;
+    text-align: center;
+}
+
+.mob-section5 p:nth-child(4) {
+    padding: 0 0.4rem 0.55rem;
+}
+
+.mob-section5 .sec {
+    /*position: relative;*/
+    /*height: 5.22rem;
+	background: url(../images/mobile/nkzh_03.jpg) no-repeat;
+	background-size: cover;*/
+    min-height: 5.04rem;
+    background: url(../images/mobile/nkzh_03.jpg) center 0.25rem no-repeat;
+    background-size: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.mob-section5 .sec img {
+    width: 7.5rem;
+    height: 5.04rem;
+}
+
+.mob-section5 .main {
+    /*position: absolute;
+	left: 0.18rem;
+	top: 0;*/
+    width: 4.3rem;
+    background: rgba(53, 74, 142, 0.77);
+    color: #fff;
+    padding: 0.35rem 0.24rem;
+    margin-left: 0.18rem;
+    line-height: 0.32rem;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    font-size: 0.2rem;
+    box-sizing: border-box;
+    background: #3a63a7;
+    color: #fff;
+    margin-bottom: 0.15rem;
+}
+
+.case img {
+    width: 2.5rem;
+    height: 3.7rem;
+}
+
+.case div {
+    flex: 1;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+
+.case div p:nth-child(1) {
+    font-size: 0.3rem;
+    margin-bottom: 0.14rem;
+}
+
+.case div p:nth-child(2) {
+    line-height: 0.3rem;
+}

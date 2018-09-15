@@ -1,0 +1,738 @@
+.section1-pc {
+    background: url(../images/index_top_bg.jpg) 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-pc .section1-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section1-pc .section1-main .title {
+    margin-top: -23px;
+}
+
+.section1-pc .section1-main .btn {
+    width: 220px;
+    height: 60px;
+    margin-top: 55px;
+    background: #3967b6;
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section2-pc {
+    background: url(../images/index_02_bg.jpg) 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-pc .section2-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.active .section2-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    transition-duration: 1s;
+}
+
+.section2-pc .section2-main p {
+    width: 670px;
+    height: 150px;
+    font-size: 16px;
+    margin-top: 36px;
+    line-height: 25px;
+    color: #000;
+}
+
+.active .section2-pc .section2-main p {
+    margin-top: 10px;
+    transition-duration: 1.3s;
+}
+
+.section2-pc .section2-main li {
+    flex: 1;
+}
+
+.section3-pc {
+    background: url(../images/index_03_bg.jpg) 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.section3-pc .section3-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-pc .section3-main p {
+    width: 670px;
+    height: 140px;
+    margin-top: 38px;
+    line-height: 25px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.section3-pc .section3-main .btn {
+    width: 318px;
+    height: 68px;
+    background: #e6eaf3;
+    color: #546bb4;
+    line-height: 68px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.section4-pc {
+    background: url(../images/index_04_bg.jpg) 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4-pc .section4-main {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section4-pc .section4-main .title {
+    margin-bottom: 28px;
+    text-align: left;
+}
+
+.section4-pc .section4-main .des {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 22px;
+    text-align: left;
+}
+
+/*.active.section4 .section4-main .des {
+    animation-name: fadeInUp;
+}
+
+.active .section4-main .title {
+    animation-name: fadeInUp;
+}*/
+
+.section4-pc .section4-main .btn {
+    display: inline-block;
+    width: 232px;
+    height: 67px;
+    background: #025b9f;
+    color: #fff;
+    line-height: 68px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    margin-top: 54px;
+    font-size: 24px;
+}
+
+.section5-pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5-pc .main {
+    width: 1100px;
+    text-align: center;
+    color: #666666;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.section5-pc .main .tit {
+    margin: 30px 0 60px;
+}
+
+.section5-pc .main li {
+    margin: 0 5px 12px;
+}
+
+.partn {
+    display: inline-block;
+    width: 262px;
+    height: 64px;
+    border: 1px solid #2259b4;
+    font-size: 26px;
+    line-height: 64px;
+    text-align: center;
+    color: #2259b4;
+    margin: 40px auto 0;
+}
+
+
+/*移动端*/
+
+
+/*html, body{
+    width: 100%;
+    height: 100%;
+}*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    overflow: hidden;
+    text-align: center;
+}
+
+.section1-mob {
+    width: 100%;
+    background: url(../images/mobile/index_banner_bg.jpg) no-repeat;
+    background-size: cover;
+    /*text-align: center;*/
+}
+
+.section1-mob-warp {
+    font-size: 0.22rem;
+    margin-top: 3.7rem;
+}
+
+.section1-mob-warp p:nth-child(1) {
+    font-size: 0.22rem;
+}
+
+.section1-mob-warp p:nth-child(2) {
+    font-size: 0.88rem;
+    margin: 0.23rem 0 0.35rem;
+}
+
+.section1-mob-warp p:nth-child(3) {
+    font-size: 0.38rem;
+}
+
+.section1-mob-warp .btn {
+    display: block;
+    font-size: 0.3rem;
+    width: 3.22rem;
+    height: 0.8rem;
+    background: #3464b7;
+    color: #fff;
+    line-height: 0.8rem;
+    margin: 0.57rem auto 0;
+}
+
+.section2-mob {
+    width: 100%;
+    box-sizing: border-box;
+    background: url(../images/mobile/index_01_bg.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-mob-top {
+    font-size: 0.24rem;
+}
+
+.section2-mob-top p:nth-child(1) {
+    font-size: 0.5rem;
+    color: #193585;
+    margin-bottom: 0.5rem;
+}
+
+.section2-mob-top p:nth-child(2) {
+    line-height: 0.4rem;
+    height: 1.55rem;
+}
+
+.section2-mob-bottom {
+    width: 100%;
+    margin-top: 0.55rem;
+}
+
+.section2-mob-bottom ul {
+    padding: 0 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-mob-bottom ul li {
+    flex: 1;
+    padding: 0 0.13rem;
+}
+
+.section2-mob-bottom ul li img {
+    width: 100%;
+}
+
+.section3-mob {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section3-mob .item {
+    flex: 1;
+}
+
+.section3-mob-top {
+    width: 100%;
+    height: 6.8rem;
+    background: url(../images/mobile/index__02_bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section3-mob-bottom {
+    width: 100%;
+    background: #f5f5f5;
+    font-size: 0.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-mob-bottom div p:nth-child(1) {
+    font-size: 0.5rem;
+    margin-bottom: 0.3rem;
+    color: #193585;
+}
+
+.section3-mob-bottom .btn {
+    display: block;
+    font-size: 0.3rem;
+    width: 3.22rem;
+    height: 0.8rem;
+    background: #3464b7;
+    color: #fff;
+    line-height: 0.8rem;
+    margin: 0.8rem auto 0;
+}
+
+.section4-mob {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-mob-top {
+    width: 100%;
+    height: 6.8rem;
+    background: url(../images/mobile/index__04_bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-mob-bottom {
+    width: 100%;
+    background: #f5f5f5;
+    font-size: 0.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.8rem;
+    text-align: left;
+}
+
+.section4-mob-bottom div p:nth-child(1) {
+    font-size: 0.5rem;
+    margin-bottom: 0.42rem;
+    color: #193585;
+}
+
+.section4-mob-bottom div p:nth-child(2) {
+    line-height: 0.52rem;
+}
+
+.section4-mob-bottom .btn {
+    display: block;
+    font-size: 0.3rem;
+    width: 2.81rem;
+    height: 0.85rem;
+    background: #3464b7;
+    color: #fff;
+    line-height: 0.85rem;
+    text-align: center;
+    margin-top: 0.53rem;
+}
+
+.section5-mob {
+    width: 100%;
+    position: relative;
+}
+
+.section5-mob .warp {
+    /*height: 8.16rem;*/
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warp .warp-title {
+    font-size: 0.5rem;
+    color: #193585;
+    margin: 1rem 0 0.25rem 0;
+}
+
+.warp .warp-slogen {
+    font-size: 0.28rem;
+    margin-bottom: 0.65rem;
+}
+
+.warp .btn {
+    display: block;
+    font-size: 0.3rem;
+    width: 2.81rem;
+    height: 0.85rem;
+    background: #3464b7;
+    color: #fff;
+    line-height: 0.85rem;
+    text-align: center;
+    margin: 0.62rem auto;
+}
+
+.section5-mob .warp ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.5rem;
+    height: 0.88rem;
+    margin-bottom: 0.12rem;
+}
+
+.section5-mob .warp ul li {
+    flex: 1;
+    margin-right: 0.07rem;
+}
+
+.section5-mob .warp ul li img {
+    width: 100%;
+}
+
+.section5-mob .mob-footer {
+    width: 100%;
+    height: 3.1rem;
+    background: #8e959b;
+    color: #fff;
+    padding: 0.45rem 0.42rem 0.47rem 0.42rem;
+    display: flex;
+    font-size: 0.2rem;
+    text-align: left;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mob-footer-logo {
+    padding-right: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob-footer-logo img {
+    width: 1.22rem;
+    height: 1.33rem;
+}
+
+.mob-footer-info {
+    border-left: 1px solid #fff;
+    padding-left: 0.3rem;
+}
+
+.mob-footer-info .name {
+    font-size: 0.3rem;
+    margin: 0.23rem 0 0.1rem;
+}
+
+.mob-footer-info .address {
+    font-size: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.mob-footer-info div {
+    width: 3.46rem;
+    height: 0.75rem;
+}
+
+.mob-footer-info div img {
+    width: 100%;
+}
+
+.sss {
+    float: right;
+    cursor: pointer;
+    margin-right: 42px;
+}
+
+.sss img {
+    width: 100%;
+}
+
+.animated {
+    animation-duration: 1s !important;
+    animation-fill-mode: both !important;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        transform: translate3d(0, 40px, 0);
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+    }
+}
+/**
+ * fullPage 2.4.6
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#superContainer {
+    height: 100%;
+    position: relative;
+
+    /* Touch detection for Windows 8 */
+    -ms-touch-action: none;
+
+    /* IE 11 on Windows Phone 8.1*/
+    touch-action: none;
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box; /* <=28 */
+    box-sizing: border-box;
+}
+.fp-slide {
+    float: left;
+}
+.fp-slide, .fp-slidesContainer {
+    height: 100%;
+    display: block;
+}
+.fp-slides {
+    z-index:1;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
+    transition: all 0.3s ease-out;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+}
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.fp-slidesContainer {
+    float: left;
+    position: relative;
+}
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+}
+.fp-scrollable {
+    height: 100%;
+    /*overflow: scroll;*/
+    /*width: 100%;display: flex;flex-direction: column;justify-content: center;*/
+}
+.fp-scroller{
+    /*height: 100%;*/
+}
+.fp-notransition {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    right: 4.8%;
+    opacity: 1;
+}
+#fp-nav.right {
+    right: 70px;
+}
+#fp-nav.left {
+    left: 17px;
+}
+.fp-slidesNav{
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    opacity: 1;
+}
+.fp-slidesNav.bottom {
+    bottom: 17px;
+}
+.fp-slidesNav.top {
+    top: 17px;
+}
+#fp-nav ul,
+.fp-slidesNav ul {
+  margin: 0;
+  padding: 0;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 14px;
+    position:relative;
+}
+.fp-slidesNav ul li {
+    display: inline-block;
+}
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    /*background: #333;*/
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-bottom: 24px;
+    background: url(../images/index_gundong.png) center no-repeat;
+    background-size: 100% 100%;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin-bottom: 12px;
+    /*border: 1px solid #fff;index_gundong*/
+    /*background: rgba(0, 0, 0, 0);*/
+    background: url(../images/index_gundong02.png) center no-repeat;
+    background-size: 50% 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    width: 0;
+}
+#fp-nav ul li:hover .fp-tooltip {
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 1;
+}
+#fp-nav ul li .fp-tooltip.right {
+    right: 20px;
+}
+#fp-nav ul li .fp-tooltip.left {
+    left: 20px;
+}

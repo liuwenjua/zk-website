@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Partnfire official web site pages",
+  "scripts": {
+    "start": "gulp",
+    "dist": "gulp build",
+    "publish": "gulp publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-cache": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev-all": "^0.8.24",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.0.0",
+    "gulp-watch": "^4.3.5",
+    "gulp-zip": "^3.0.2"
+  }
+}

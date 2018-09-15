@@ -1,0 +1,396 @@
+.header {
+    background-repeat: no-repeat;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*padding: 398px 0 0;*/
+    min-height: 640px;
+    height: 640px;
+    position: relative
+}
+
+.header-warp {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 44px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-content {
+    width: 320px;
+}
+
+.header-content h3 {
+    font-size: 60px;
+}
+
+.logoimg {
+    width: 1060px;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+.section2-warp {
+    height: 784px;
+    display: flex;
+}
+
+.section2-warp .section2-warp-left {
+    background: #f5f5f5;
+    flex: 1;
+}
+
+.section2-warp div:nth-child(3) {
+    background: #fff;
+    flex: 1;
+}
+
+.section2 {
+    width: 1100px;
+    background: url(../images/lecon.jpg) left no-repeat;
+}
+
+.section6-warp {
+    width: 100%;
+    height: 500px;
+    background: #ccc;
+    color: #fff;
+    padding-top: 107px;
+    box-sizing: border-box;
+    color: #f5f5f5;
+}
+
+.section6>h1 {
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f5f5f5;
+    margin-bottom: 84px;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    line-height: inherit;
+    margin-left: 48px;
+}
+
+.icon-lists {
+    padding-left: 20px;
+    display: flex;
+    margin-bottom: 140px;
+}
+
+.icon-lists .gradient1 {
+    width: 2px;
+    height: 126px;
+    /*background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(#586b9a,#9aa9cb, #586b9a);
+    background: -o-linear-gradient(#586b9a,#9aa9cb, #586b9a);
+    background: -ms-linear-gradient(#586b9a,#9aa9cb, #586b9a);
+    background: linear-gradient(#586b9a,#9aa9cb, #586b9a);*/
+    background: url(../images/zylx_02_x.png) no-repeat;
+    background-size: contain;
+}
+
+.icon-lists .gradient2 {
+    width: 2px;
+    height: 126px;
+    /*background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(#787374,#bcb9b7, #787374);
+    background: -o-linear-gradient(#787374,#bcb9b7, #787374);
+    background: -ms-linear-gradient(#787374,#bcb9b7, #787374);
+    background: linear-gradient(#787374,#bcb9b7, #787374);*/
+    background: url(../images/zylx_01_x.png) no-repeat;
+    background-size: contain;
+}
+
+.icon-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 126px;
+    padding: 0 25px;
+}
+
+.icon-item>div {
+    width: 76px;
+    height: 68px;
+    margin-bottom: 20px;
+}
+
+.icon-item1 div {
+    background: url(../images/zylx_01_01.png) no-repeat;
+}
+
+.icon-item2 div {
+    background: url(../images/zylx_01_02.png) no-repeat;
+}
+
+.icon-item3 div {
+    background: url(../images/zylx_01_03.png) no-repeat;
+}
+
+.icon-item4 div {
+    background: url(../images/zylx_01_04.png) no-repeat;
+}
+
+.icon-item5 div {
+    background: url(../images/zylx_01_05.png) no-repeat;
+}
+
+.icon-item6 div {
+    background: url(../images/zylx_01_06.png) no-repeat;
+}
+
+.icon-item7 div {
+    background: url(../images/zylx_01_07.png) no-repeat;
+}
+
+.icon-item8 div {
+    background: url(../images/zylx_01_08.png) no-repeat;
+}
+
+.icon-item9 div {
+    background: url(../images/zylx_02_01.png) no-repeat;
+}
+
+.icon-item10 div {
+    background: url(../images/zylx_02_02.png) no-repeat;
+}
+
+.icon-item11 div {
+    background: url(../images/zylx_02_03.png) no-repeat;
+}
+
+.icon-item12 div {
+    background: url(../images/zylx_02_04.png) no-repeat;
+}
+
+.icon-item13 div {
+    background: url(../images/zylx_02_05.png) no-repeat;
+}
+
+.icon-item14 div {
+    background: url(../images/zylx_02_06.png) no-repeat;
+}
+
+.icon-item15 div {
+    background: url(../images/zylx_02_07.png) no-repeat;
+}
+
+.icon-item>p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.section4-warp {
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.section4 {
+    width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 87px 0px 63px 0;
+    line-height: 30px;
+    color: #666666;
+}
+
+.section4-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.section4-title h3 {
+    font-size: 50px;
+    color: #000;
+}
+
+.section4-title p {
+    color: #193585;
+    margin-bottom: 45px;
+}
+
+.section4-content {
+    display: flex;
+    align-items: center;
+}
+
+.section4-content div {
+    margin-left: 33px;
+    margin-top: 89px;
+    width: 440px;
+}
+
+.section4-content .title {
+    font-size: 30px;
+    color: #000;
+    margin: 70px 0 20px;
+    font-weight: normal;
+}
+
+
+/*移动端*/
+
+.banner-mobile {
+    width: 100%;
+    height: 5.2rem;
+    background: url(../images/mobile/zylx_banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.mob-section2 {
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    color: #666666;
+    background: #fff;
+    padding: 0 0.27rem 0.7rem 0.35rem;
+}
+
+.mob-section2 .title {
+    text-align: center;
+    padding: 0.6rem 0 0.55rem;
+}
+
+.mob-section2 .title h3 {
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.mob-section2 .title .sub-title {
+    font-size: 0.3rem;
+    color: #193585;
+}
+
+.mob-section2-cont {
+    position: relative;
+}
+
+.mob-section2-cont img {
+    width: 3.98rem;
+    height: 4.38rem;
+    margin-top: 0.15rem;
+}
+
+.mob-section2-cont div {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.23rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.45rem 0.25rem;
+    line-height: 0.32rem;
+    background: rgba(53, 94, 172, 0.9);
+    color: #fff;
+    font-size: 0.2rem;
+}
+
+.mob-section2 .sub-title2 {
+    font-size: 0.3rem;
+    color: #000;
+    margin: 0.65rem 0 0.3rem;
+}
+
+.field {
+    width: 100%;
+    padding: 0.7rem 0 0 0.14rem;
+    box-sizing: border-box;
+    background: url(../images/mobile/zylx_01_bg2.jpg) no-repeat;
+    background-size: cover;
+    font-size: 0.2rem;
+    color: #fff;
+}
+
+.field2 {
+    background: url(../images/mobile/zylx_02_bg2.jpg) no-repeat;
+}
+
+.field .title {
+    font-size: 0.3rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 0.05rem solid #fff;
+    display: table;
+    margin-left: 0.26rem;
+    margin-bottom: 0.62rem;
+}
+
+.field ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.field ul li {
+    width: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.field2 ul li {
+    width: 1.6rem;
+}
+
+.field ul li img {
+    width: 0.76rem;
+    height: 0.68rem;
+}
+
+.field ul li p {
+    margin-top: 0.15rem;
+}
+
+.field ul .line {
+    width: 0.02rem;
+    height: 1.25rem;
+    background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -o-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -ms-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: linear-gradient(#586b9a, #9aa9cb, #586b9a);
+}
+
+.field2 ul .line {
+    width: 0.02rem;
+    height: 1.25rem;
+    background: -moz-linear-gradient(top, #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -o-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: -ms-linear-gradient(#586b9a, #9aa9cb, #586b9a);
+    background: linear-gradient(#877a7a, #fff, #877a7a);
+}
+
+.mob-section4 {
+    padding-left: 0;
+}
+
+.mob-section4 img {
+    width: 4.66rem;
+    height: 5.33rem;
+}
+
+.mob-section4 .mob-section2-cont {
+    height: auto;
+}
+
+.mob-section4 .mob-section2-cont div {
+    height: auto;
+}
+
+.mob-section4 .mob-section2-cont img {
+    margin-top: 0.5rem;
+}

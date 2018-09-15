@@ -1,0 +1,379 @@
+.logoimg {
+    width: 1060px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-size: 66px;
+    color: #2e5b7d;
+}
+
+.section2-pc-creative {
+    width: 100%;
+    padding: 106px 0 123px;
+}
+
+.section3-pc-creative {
+    width: 100%;
+    background: #eaeaea;
+}
+
+.section3-pc-warp {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 112px 0 105px;
+}
+
+.section2-pc-warp {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-pc-warp .content {
+    width: 518px;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 25px;
+    color: #666666;
+}
+
+.section2-pc-warp .content span {
+    background: #193585;
+    color: #fff;
+    font-size: 36px;
+    padding: 6px 14px;
+}
+
+.section2-pc-warp .content .title {
+    font-size: 46px;
+    margin: 43px 0 25px;
+    color: #000;
+    font-weight: normal;
+}
+
+.section2-pc-warp .content p {
+    line-height: 44px;
+}
+
+.section2-pc-warp .pic {
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.section2-pc-warp .content .name {
+    color: #193585;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.section3-pc-warp .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section3-pc-warp .sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 140px;
+}
+
+.section3-pc-warp ul {
+    display: flex;
+}
+
+.section3-pc-warp ul li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 27px;
+    padding: 0 56px;
+}
+
+.section3-pc-warp ul li img {
+    margin-bottom: 30px;
+}
+
+.section4-pc-creative {
+    background: #f1f3f5;
+}
+
+.section4-pc-title {
+    text-align: center;
+    padding: 106px 0 0;
+}
+
+.section4-pc-subtitle {
+    text-align: center;
+    margin: 20px 0 77px;
+    font-size: 18px;
+}
+
+.section4-pc-creative ul {
+    display: flex;
+    width: 1100px;
+    height: 402px;
+    margin: 0 auto;
+    padding-bottom: 93px;
+}
+
+.section4-pc-creative ul li {
+    flex-grow: 1;
+    position: relative;
+}
+
+.section4-pc-creative ul li .name {
+    width: 196px;
+    height: 196px;
+    background: rgba(255, 255, 255, 0.84);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #193585;
+    font-weight: bold;
+    border: 15px solid rgba(255, 255, 255, 0.49);
+}
+
+.introduction {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 53, 133, 0.7);
+    font-size: 15px;
+    color: #fff;
+    padding: 0 40px 0 30px;
+    box-sizing: border-box;
+    line-height: 26px;
+    display: none;
+}
+
+.introduction-name {
+    font-size: 35px;
+    padding: 130px 0 5px;
+    text-align: center;
+    margin: 0 auto 23px;
+    font-weight: normal;
+}
+
+.introduction-name3 {
+    padding: 80px 0 5px;
+}
+
+.introduction-name span {
+    font-size: 20px;
+}
+
+.section4-pc-creative ul li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 440px;
+}
+
+.section4-pc-creative ul li .name span {
+    font-size: 20px;
+}
+
+.section4-pc-creative ul li:nth-child(1) {
+    margin-right: 26px;
+    background: url(../images/yacx_gshy_01.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-creative ul li:nth-child(1):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-creative ul li:nth-child(1):hover .introduction {
+    display: block;
+}
+
+.section4-pc-creative ul li:nth-child(2) {
+    margin-right: 26px;
+    background: url(../images/yacx_gshy_02.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-creative ul li:nth-child(2):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-creative ul li:nth-child(2):hover .introduction {
+    display: block;
+}
+
+.section4-pc-creative ul li:nth-child(3) {
+    margin-right: 14px;
+    background: url(../images/yacx_gshy_03.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.section4-pc-creative ul li:nth-child(3):hover .name {
+    opacity: 0;
+}
+
+.section4-pc-creative ul li:nth-child(3):hover .introduction {
+    display: block;
+}
+
+
+/*移动端*/
+
+.banner-mobile {
+    width: 100%;
+    height: 5.2rem;
+    background: url(../images/mobile/yfcx_banner.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.idea {
+    padding: 0.75rem 0 0.88rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.25rem;
+    color: #666666;
+}
+
+.idea img {
+    width: 3.06rem;
+    height: 4.35rem;
+}
+
+.idea-content {
+    flex: 1;
+    padding-left: 0.43rem;
+}
+
+.idea-content span {
+    font-size: 0.36rem;
+    color: #fff;
+    background: #193585;
+    padding: 0.06rem 0.15rem;
+}
+
+.idea-content .title {
+    font-size: 0.4rem;
+    color: #000;
+    margin: 0.32rem 0 0.26rem;
+}
+
+.idea-content p {
+    line-height: 0.43rem;
+    color: #666666;
+}
+
+.info-mobile {
+    padding: 0.67rem 0.72rem 0.75rem;
+    background: #f5f5f5;
+    font-size: 0.24rem;
+    color: #666666;
+}
+
+.info-mobile h3 {
+    font-size: 0.46rem;
+    color: #193585;
+    font-weight: bold;
+    text-align: -webkit-center;
+}
+
+.sub-title {
+    font-size: 0.22rem;
+    margin-bottom: 0.58rem;
+    text-align: -webkit-center;
+}
+
+.info-content {
+    line-height: 0.4rem;
+    text-align: left;
+    text-indent: 0.5rem;
+    margin-bottom: 0.53rem;
+}
+
+.mobile-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.44rem 0.4rem 0.34rem;
+    margin-bottom: 0.1rem;
+    box-shadow: 0px 0px 10px 5px #eaeaea;
+}
+
+.mobile-item1 h3 {
+    color: #000;
+}
+
+.mobile-item1 img {
+    width: 1.29rem;
+    height: 1.28rem;
+}
+
+.mobile-item1 p {
+    line-height: 0.38rem;
+    color: #666666;
+    font-size: 0.22rem;
+}
+
+.base {
+    padding: 0.75rem 0.39rem 0;
+}
+
+.base .title {
+    font-size: 0.46rem;
+    color: #193585;
+    font-weight: bold;
+    text-align: -webkit-center;
+}
+
+.base .sub-title {
+    font-size: 0.22rem;
+    margin-bottom: 0.84rem;
+    text-align: -webkit-center;
+    color: #666666;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+    font-size: 0.2rem;
+    line-height: 0.35rem;
+    margin-bottom: 0.63rem;
+}
+
+.item2 img {
+    width: 2.5rem;
+    height: 3.3rem;
+    margin-right: 0.14rem;
+}
+
+.item2 .content {
+    flex: 1;
+}
+
+.item2 h3 {
+    font-size: 0.46rem;
+    color: #666666;
+    font-weight: bold;
+}
+
+.item2-right img {
+    width: 2.5rem;
+    height: 3.3rem;
+    margin-left: 0.14rem;
+}
+
+.item2-right h3 {
+    font-size: 0.46rem;
+    color: #666666;
+    font-weight: bold;
+    text-align: right;
+}
